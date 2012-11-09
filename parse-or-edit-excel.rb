@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'roo'
 
-output_file = Google.new("0Aqok6876FoYmdDFQbHpiQXpndzhYZlJ3SFM0ZDkzUGc", "mail2gok@gmail.com", "HarryPassword")
+output_file = Google.new("0Aqok6876FoYmdDFQbHpiQXpndzhYZlJ3SFM0ZDkzUGc", "<your-gmail-id>", "<your-gmail-password>")
 output_file.default_sheet = output_file.sheets.first
 
 xl= Libreoffice.new("employee-list.ods")
